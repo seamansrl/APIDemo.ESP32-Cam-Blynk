@@ -7,7 +7,7 @@ Para poder usar esta demo una vez cargado el código a la ESP32-Cam deberemos in
 
 Para copiar el codigo a la ESP32-Cam se requiere de un adaptador USB-TTL el cual ira conectado de la siguiente manera:
 
-https://raw.githubusercontent.com/g3ne51s/APIDemo.ESP32-Cam-Blynk/Conexionado.jpg
+![Conexion entre TTL y ESP32-Cam](https://raw.githubusercontent.com/g3ne51s/APIDemo.ESP32-Cam-Blynk/Conexionado.jpg)
 
 
 El Proyecto Horus consiste en una API REST que permite de forma simple identificar imágenes vía redes neuronales.
