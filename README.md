@@ -3,12 +3,21 @@
 Código demo en C de ARDUINO para el consumo de la API de reconocimiento (Proyecto Horus) junto a los servicios de https://blynk.io/.
 
 Blynk son librerías para el entorno Arduino que nos permiten controlar o monitorear nuestros dispositivos IoT via APP Movil.
-Para poder usar esta demo una vez cargado el código a la ESP32-Cam deberemos instalar en nuestro dispositivo IOS o Android la APP de Blynk, crear un proyecto y en el agregar un display matrix con los pines de lectura V5 y V6.
+
+Para poder usar esta demo antes de cargar el código a la ESP32-Cam deberemos instalar en nuestro dispositivo IOS o Android la APP de Blynk, crear un proyecto y en el agregar un display matrix con los pines de lectura V5 y V6.
+La propia APP nos asignara una API TOKEN que deberemos indicar en el fuente de este proyecto en donde dice: 
+
+char auth[] = "ACA VA LA API KEY DE BLYNK";
+
+# Cargar el codigo en la ESP32-CAM
 
 Para copiar el codigo a la ESP32-Cam se requiere de un adaptador USB-TTL el cual ira conectado de la siguiente manera:
 
 ![Conexion entre TTL y ESP32-Cam](Conexionado.jpg)
 
+La configuración del entorno arduino para la carga sera:
+
+![Configuracion en entorno Arduino](Config_Arduino.png)
 
 El Proyecto Horus consiste en una API REST que permite de forma simple identificar imágenes vía redes neuronales.
 
