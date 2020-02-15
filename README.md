@@ -21,7 +21,10 @@ La configuración del entorno arduino para la carga sera:
 
 El Proyecto Horus consiste en una API REST que permite de forma simple identificar imágenes vía redes neuronales.
 
-Dentro de las funciones de la API podemos encontrar:
+Nota: Si hay problemas para subir el codigo a la placa y todo parace corresponder correctamente debera probar invirtiendo el RX y el TX de la placa TTL.
+
+
+# Dentro de las funciones de la API podemos encontrar:
 
 - FACE ID
 - OBJECT DETECTION
