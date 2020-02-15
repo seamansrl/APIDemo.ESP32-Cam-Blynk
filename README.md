@@ -9,7 +9,7 @@ La propia APP nos asignara una API TOKEN que deberemos indicar en el fuente de e
 
 char auth[] = "ACA VA LA API KEY DE BLYNK";
 
-# Cargar el codigo en la ESP32-CAM
+# Cargar el código en la ESP32-CAM
 
 Para copiar el codigo a la ESP32-Cam se requiere de un adaptador USB-TTL el cual ira conectado de la siguiente manera:
 
