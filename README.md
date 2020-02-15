@@ -32,12 +32,6 @@ El Proyecto Horus consiste en una API REST que permite de forma simple identific
 - ID DECODER
 - APLR (AUTOMATIC PLATE LICENSE RECOGNITION)
 
-- FACE ID
-- OBJECT DETECTION
-- QR DECODER
-- ID DECODER
-- APLR (AUTOMATIC PLATE LICENSE RECOGNITION)
-
 al 01-02-2020 el proyecto estas en modo beta por lo cual para poder acceder y configurar la API se deberá descargar la APP que permite a la administracion desde https://www.proyectohorus.com.ar/Admin.zip
 
 La URL a usar en el código de ejemplo es: http://server1.proyectohorus.com.ar
