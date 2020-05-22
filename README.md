@@ -24,8 +24,6 @@ Nota: Si hay problemas para subir el codigo a la placa y todo parace corresponde
 
 # Dentro de las funciones de la API podemos encontrar
 
-El Proyecto Horus consiste en una API REST que permite de forma simple identificar imágenes vía redes neuronales.
-
 - FACE ID
 - OBJECT DETECTION
 - QR DECODER
